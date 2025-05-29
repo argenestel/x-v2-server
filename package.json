@@ -1,11 +1,11 @@
 {
-  "name": "mcp",
+  "name": "x-v2-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "bin": {
-   "x-v2-server": "./dist/index.js"
+    "x-v2-server": "./dist/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,12 +16,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.9.0",
-    "twitter-api-v2": "^1.22.0"
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "twitter-api-v2": "^1.23.2"
   },
   "devDependencies": {
-    "@types/node": "^22.14.1",
-    "tsx": "^4.7.0",
+    "@types/node": "^22.15.24",
+    "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   }
 }
