@@ -327,5 +327,6 @@ server.tool("get_owned_lists",
 
 // Start receiving messages on stdin and sending messages on stdout
 const transport = new StdioServerTransport();
+console.log("Started stdio X server")
 await server.connect(transport);
 
